@@ -1,0 +1,49 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "doctor_id": "dr_001",
+      "doctor_name": "Dr. Alice Martin",
+      "specialty": "General Practitioner",
+      "available_slots": [
+        {
+          "date": "2025-06-03",
+          "start_time": "09:00",
+          "end_time": "09:30"
+        },
+        {
+          "date": "2025-06-03",
+          "start_time": "10:00",
+          "end_time": "10:30"
+        },
+        {
+          "date": "2025-06-04",
+          "start_time": "14:00",
+          "end_time": "14:30"
+        }
+      ]
+    },
+    {
+      "doctor_id": "dr_002",
+      "doctor_name": "Dr. Karim Benali",
+      "specialty": "Dermatologist",
+      "available_slots": [
+        {
+          "date": "2025-06-03",
+          "start_time": "11:00",
+          "end_time": "11:30"
+        },
+        {
+          "date": "2025-06-05",
+          "start_time": "15:00",
+          "end_time": "15:30"
+        },
+        {
+          "date": "2025-06-06",
+          "start_time": "10:30",
+          "end_time": "11:00"
+        }
+      ]
+    }
+  ]
+}
