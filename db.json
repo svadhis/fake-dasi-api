@@ -1,49 +1,58 @@
 {
-  "status": "success",
-  "data": [
+  "doctors": [
     {
-      "doctor_id": "dr_001",
-      "doctor_name": "Dr. Alice Martin",
-      "specialty": "General Practitioner",
-      "available_slots": [
-        {
-          "date": "2025-06-03",
-          "start_time": "09:00",
-          "end_time": "09:30"
-        },
-        {
-          "date": "2025-06-03",
-          "start_time": "10:00",
-          "end_time": "10:30"
-        },
-        {
-          "date": "2025-06-04",
-          "start_time": "14:00",
-          "end_time": "14:30"
-        }
-      ]
+      "id": "dr_001",
+      "name": "Dr. Alice Martin",
+      "specialty": "General Practitioner"
     },
     {
+      "id": "dr_002",
+      "name": "Dr. Karim Benali",
+      "specialty": "Dermatologist"
+    }
+  ],
+  "slots": [
+    {
+      "id": 1,
+      "doctor_id": "dr_001",
+      "date": "2025-06-03",
+      "start_time": "09:00",
+      "end_time": "09:30"
+    },
+    {
+      "id": 2,
+      "doctor_id": "dr_001",
+      "date": "2025-06-03",
+      "start_time": "10:00",
+      "end_time": "10:30"
+    },
+    {
+      "id": 3,
+      "doctor_id": "dr_001",
+      "date": "2025-06-04",
+      "start_time": "14:00",
+      "end_time": "14:30"
+    },
+    {
+      "id": 4,
       "doctor_id": "dr_002",
-      "doctor_name": "Dr. Karim Benali",
-      "specialty": "Dermatologist",
-      "available_slots": [
-        {
-          "date": "2025-06-03",
-          "start_time": "11:00",
-          "end_time": "11:30"
-        },
-        {
-          "date": "2025-06-05",
-          "start_time": "15:00",
-          "end_time": "15:30"
-        },
-        {
-          "date": "2025-06-06",
-          "start_time": "10:30",
-          "end_time": "11:00"
-        }
-      ]
+      "date": "2025-06-03",
+      "start_time": "11:00",
+      "end_time": "11:30"
+    },
+    {
+      "id": 5,
+      "doctor_id": "dr_002",
+      "date": "2025-06-05",
+      "start_time": "15:00",
+      "end_time": "15:30"
+    },
+    {
+      "id": 6,
+      "doctor_id": "dr_002",
+      "date": "2025-06-06",
+      "start_time": "10:30",
+      "end_time": "11:00"
     }
   ]
 }
